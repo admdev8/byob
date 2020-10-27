@@ -25,10 +25,12 @@
     "email": "rendro87@gmail.com",
     "url": "http://robert-fleischmann.de"
   },
-  "contributors": [{
-    "name": "Moritz",
-    "url": "https://github.com/mrzmyr"
-  }],
+  "contributors": [
+    {
+      "name": "Moritz",
+      "url": "https://github.com/mrzmyr"
+    }
+  ],
   "scripts": {
     "test": "grunt karma:ci"
   },
@@ -40,7 +42,7 @@
     "grunt": "~0.4.5",
     "grunt-contrib-concat": "~0.5.1",
     "grunt-banner": "~0.4.0",
-    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-clean": "~2.0.0",
     "grunt-contrib-uglify": "~0.9.1",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-less": "~1.0.1",
